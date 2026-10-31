@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>BOREDOM.EXE</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0c0c0e;--fg:#f2f0e6;--mute:#78766c;--yel:#ffd400;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.6 'Space Grotesk',sans-serif}
+.wrap{max-width:820px;margin:0 auto;padding:0 24px}
+header{position:sticky;top:0;z-index:10;background:rgba(12,12,14,.55);backdrop-filter:blur(14px) saturate(160%);-webkit-backdrop-filter:blur(14px) saturate(160%);padding:18px 24px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+header a{color:inherit;text-decoration:none}
+.brand{display:flex;align-items:center;gap:14px}
+.logo{font:700 16px 'Orbitron',sans-serif;letter-spacing:.04em}
+.by{font:500 13px 'Space Grotesk',sans-serif;color:var(--mute)}
+.by:hover,.by:focus-visible{color:var(--fg)}
+.nav{display:flex;gap:22px}
+.nav a{font:500 14px 'Space Grotesk',sans-serif;color:var(--mute);border-bottom:1px solid transparent;padding-bottom:2px}
+.nav a:hover,.nav a:focus-visible{color:var(--fg);border-color:var(--yel)}
+.hero{padding:120px 24px 60px}
+h1{font:900 clamp(32px,6vw,58px)/1.2 'Orbitron',sans-serif;margin:0 0 22px;letter-spacing:.01em}
+.o{letter-spacing:.03em}
+.ow,.og{color:var(--bg);-webkit-text-stroke:4px var(--c);paint-order:stroke fill}
+.ow{--c:#fff}.og{--c:#8C9C9C}
+.gx{position:relative;display:inline-block;padding:.14em .08em;margin:-.14em -.08em;color:transparent;-webkit-text-fill-color:transparent;-webkit-text-stroke:4px transparent;background:linear-gradient(90deg,#ff2d2d,#ffe600,#2dff5a,#18c8ff,#3b4bff);-webkit-background-clip:text;background-clip:text}
+.gx::after{content:attr(data-t);position:absolute;left:.08em;top:.14em;color:var(--bg);-webkit-text-fill-color:var(--bg);-webkit-text-stroke:0}
+.lede{max-width:46ch;color:var(--mute);margin:0 0 36px}
+.btn{display:inline-block;color:var(--bg);background:var(--fg);border:2px solid var(--fg);font:500 15px 'Space Grotesk',sans-serif;padding:13px 24px;text-decoration:none;transition:background .25s ease,color .25s ease,border-color .25s ease}
+.btn:hover,.btn:focus-visible{background:#000;color:#fff;border-color:#fff}
+section.wrap{padding:40px 24px}
+#cta.wrap{padding-top:16px;padding-bottom:64px}
+.rule{border:none;border-top:1px solid #222}
+dl{display:grid;grid-template-columns:auto 1fr;gap:10px 28px;font-size:15px;margin:0}
+dt{color:var(--mute)}
+dd{margin:0}
+footer.wrap{padding:32px 24px 40px;color:var(--mute);font-size:13px}
+@media(prefers-reduced-motion:reduce){.btn{transition:none}}
+a:focus-visible,button:focus-visible{outline:2px solid var(--yel);outline-offset:2px}
+</style></head><body>
+<header>
+<div class="brand">
+<a class="logo" href="#top">BOREDOM.EXE</a>
+<a class="by" href="https://claude.ai/artifact/RMRfvBt64dRquUuyCzRJ3R">@ElectroBAI</a>
+</div>
+<nav class="nav"><a href="#spec">SPEC</a><a href="#cta">GET IT</a></nav>
+</header>
+
+<div class="hero wrap" id="top">
+<h1>The <span class="o ow">future</span> of reducing <span class="o og">boredom</span> is a <span class="o gx" data-t="keyboard">keyboard</span> that does nothing.</h1>
+<p class="lede">No app opens. No file saves. No notification fires. Every key is load-bearing for exactly one feeling: pressing it.</p>
+<a class="btn" href="https://claude.ai/artifact/RMRfvBt64dRquUuyCzRJ3R">Press the keyboard</a>
+</div>
+
+<hr class="rule">
+
+<section id="spec" class="wrap">
+<dl>
+<dt>Inputs</dt><dd>104 keys, full layout</dd>
+<dt>Outputs</dt><dd>None</dd>
+<dt>Learning curve</dt><dd>Zero</dd>
+<dt>Side effects</dt><dd>Light, sound, a small sense of control</dd>
+</dl>
+</section>
+
+<section id="cta" class="wrap">
+<a class="btn" href="https://claude.ai/artifact/RMRfvBt64dRquUuyCzRJ3R">Open the keyboard</a>
+</section>
+
+<footer class="wrap">BOREDOM.EXE — does nothing, on purpose.</footer>
+</body></html>
