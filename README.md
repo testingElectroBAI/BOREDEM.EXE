@@ -1,2 +1,2 @@
 ## BOREDEM.EXE
-<a>boredemexe.vercel.app</a>
+[boredemexe.vercel.app](boredemexe.vercel.app)
